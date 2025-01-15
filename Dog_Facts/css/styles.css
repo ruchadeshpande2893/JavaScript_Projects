@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: #F6F5F2;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 10vh 70vh 15vh 5vh;
+    height: 100vh;
+}
+
+.header {
+    background-color: #f5f5f5;
+    grid-column: 1 / -1;
+    font-family: "Satisfy", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer {
+    background-color: #f5f5f5;
+    grid-column: 2 / -1;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    font-family: "Satisfy", serif;
+    padding-right: 10px;
+}
+
+.dog-image {
+    background-color:#f5f5f5;
+    grid-row: 2 / -1;
+}
+
+img {
+    height: 90vh;
+    width: 50vw;
+}
+
+.dog-fact {
+    background-color: #f5f5f5;
+    font-family: "Satisfy", serif;
+    font-size: xx-large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#fact {
+    width: 400px;
+    color: orangered;
+}
+
+.button {
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+button {
+    font-family: "Satisfy", serif;
+    font-size: x-large;
+    border-radius: 4px;
+    width: 200px;
+}
