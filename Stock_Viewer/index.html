@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stock Viewer</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="font header">Stock Viewer</div>
+        <div class="body">
+            <div class="box font open">
+                <p>Open</p>
+                <p class="box-p" id="open-p"></p>
+            </div>
+            <div class="box font high">
+                <p>High</p>
+                <p class="box-p" id="high-p"></p>
+            </div>
+            <div class="box font low">
+                <p>Low</p>
+                <p class="box-p" id="low-p"></p>
+            </div>
+            <div class="box font symbol">
+                <p>Symbol</p>
+                <p class="box-p" id="symbol-p"></p>
+            </div>
+            <div class="box font exchange">
+                <p>Exchange</p>
+                <p class="box-p" id="exchange-p"></p>
+            </div>
+            <div class="box font date">
+                <p>Date</p>
+                <p class="box-p" id="date-p"></p>
+            </div>
+            <div class="input">
+                <input class="font" id="ticker-symbol" type="text" placeholder="Ticker Symbol">
+            </div>
+            <div class="button">
+                <button class="font" id="submit-button" type="button">Submit</button>
+            </div>
+        </div>
+        <div class="font footer">&#169; Rucha Deshpande</div>
+    </div>
+    
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
